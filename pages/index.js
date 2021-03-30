@@ -130,27 +130,29 @@ export default function Home() {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center mt-40 text-center">
-        <p className="text-xs mt-8 mb-10">Host Anywhere</p>
+        <p className="text-md mt-8 mb-10">Host Anywhere</p>
         <div className="flex justify-center items-center">
-          <div className="sm:px-1 md:px-3 lg:px-6">
+          <div className="px-1 md:px-5">
             <Image src="/vercel.svg" width={123} height={28} />
           </div>
-          <div className="px-3">
+          <div className="px-1 md:px-5">
             <Image src="/Netlify.svg" width={103} height={28} />
           </div>
-          <div className="px-3">
+          <div className="px-1 md:px-5">
             <Image src="/aws.svg" width={54} height={32} />
           </div>
-          <div className="px-3">
+          <div className="px-1 md:px-5">
             <Image src="/github.svg" width={31} height={31} />
           </div>
-          <div className="px-3">
+        </div>
+        <div className="flex justify-center items-center mt-5">
+          <div className="px-1 md:px-5">
             <Image src="/digitalOcean.svg" width={155} height={27} />
           </div>
-          <div className="px-3">
+          <div className="px-1 md:px-5">
             <Image src="/cloudflare.svg" width={86} height={28} />
           </div>
-          <div className="px-3">
+          <div className="px-1 md:px-5">
             <Image src="/goDaddy.svg" width={126} height={26} />
           </div>
         </div>
