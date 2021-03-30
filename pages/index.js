@@ -133,7 +133,7 @@ export default function Home() {
         <p className="text-xs mt-8 mb-10">Host Anywhere</p>
         <div className="flex justify-center items-center">
           <div className="sm:px-1 md:px-3 lg:px-6">
-            <Image src="/Vercel.svg" width={123} height={28} />
+            <Image src="/vercel.svg" width={123} height={28} />
           </div>
           <div className="px-3">
             <Image src="/Netlify.svg" width={103} height={28} />
