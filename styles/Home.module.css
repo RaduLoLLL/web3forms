@@ -1,0 +1,5 @@
+.codeImage::before {
+  content: url("/howItWorks.svg");
+  vertical-align: top;
+  padding: 10px;
+}
