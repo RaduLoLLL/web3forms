@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <div className=" bg-gray-800 px-14 text-white py-4">
       <Head>
-        <title>Create Next App</title>
+        <title>Web3Forms by Radu ©2021 </title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -77,7 +77,14 @@ export default function Home() {
           </div>
         </nav>
 
-        <div className={`flex flex-col text-center ${isOpen ? "" : "hidden"}`}>
+        <div
+          className={`flex flex-col text-center  `}
+          style={{
+            transition: "all 1s ease-out",
+            opacity: isOpen ? "100%" : "0",
+            height: isOpen ? "100%" : "0",
+          }}
+        >
           <Link href="/features">
             <a
               href="#"
@@ -113,7 +120,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center mt-40 text-center">
+      <div className="flex flex-col justify-center items-center mt-20 lg:mt-40 text-center">
         <h1 className="lg:text-6xl md:text-5xl sm:text-4xl text-3xl ">
           Contact Forms for Static Websites
         </h1>
@@ -129,8 +136,9 @@ export default function Home() {
           <Image src="/code.svg" width={673} height={368} />
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center mt-40 text-center">
+      <div className="flex flex-col justify-center items-center mt-20 lg:mt-40 text-center">
         <p className="text-md mt-8 mb-10">Host Anywhere</p>
+
         <div className="flex justify-center items-center">
           <div className="px-1 md:px-5">
             <Image src="/vercel.svg" width={123} height={28} />
@@ -145,6 +153,7 @@ export default function Home() {
             <Image src="/github.svg" width={31} height={31} />
           </div>
         </div>
+
         <div className="flex justify-center items-center mt-5">
           <div className="px-1 md:px-5">
             <Image src="/digitalOcean.svg" width={155} height={27} />
